@@ -1,32 +1,26 @@
-//
+// 
 // 234218 Data Structures 1.
 // Semester: 2025A (Winter).
 // Wet Exercise #1.
-//
+// 
 // The following header file contains all methods we expect you to implement.
 // You MAY add private methods and fields of your own.
 // DO NOT erase or modify the signatures of the public methods.
 // DO NOT modify the preprocessors in this file.
 // DO NOT use the preprocessors in your other code files.
-//
+// 
 
 #ifndef PLAINS25WINTER_WET1_H_
 #define PLAINS25WINTER_WET1_H_
-#include <memory>
 
-#include "AVLtree.h"
-#include "Horse.h"
 #include "wet1util.h"
-#include "Herd.h"
-#include "HorseStackLIFO.h"
 
 class Plains {
 private:
-    AVLTree<std::shared_ptr<Horse>, HorseSharedPtrComparator>* allHorses;
-    AVLTree<std::shared_ptr<Horse::HorseLink>, HorseSharedLinkPtrComparator>* allLinks;
-    AVLTree<std::shared_ptr<Herd>, HerdSharedPtrComparator>* fullHerds;
-    AVLTree<std::shared_ptr<Herd>, HerdSharedPtrComparator>* emptyHerds;
-
+    //
+    // Here you may add anything you want
+    //
+    
 public:
     // <DO-NOT-MODIFY> {
     Plains();
